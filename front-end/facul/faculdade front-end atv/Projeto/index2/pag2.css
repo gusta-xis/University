@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    font-family: 'poppins', sans-serif;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+}
+
+picture {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+label {
+    color: #fff;
+    margin: 5px;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 44px;
+    background: #8888;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    margin: 5px;
+    font-family: 'poppins', sans-serif;
+    justify-content: center;
+    display: flex;
+    font-size: 1rem;    
+}
+
+button { 
+    border-radius: 15px;
+    background-color:  #1ED760;
+    width: 40%;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.4s ease;
+    margin: 9px;
+}
+
+button:hover {
+    background-color: #1ed75f82;
+
+}
+
+.voltar {
+    color:  #1ED760;
+    font-family: 'poppins', sans-serif;
+    font-size: 0.88rem;
+    display: flex;
+    text-decoration: none;
+    margin: 20px;
+    justify-content: center;
+}
+
+.voltar a {
+    color:  #1ED760;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.voltar a:hover {
+    text-decoration: underline;
+}
+
+

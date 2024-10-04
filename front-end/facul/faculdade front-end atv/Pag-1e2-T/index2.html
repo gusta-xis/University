@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+	<meta name="author" content="aluno.luiz">
+	<title>Avaliação</title>
+</head>
+<body>
+    <form action="#">
+		<label for="mat">Matricula</label>
+		<input type="text" id="mat" name="matricula" required pattern="[U][C][0-9]{8}" 
+		placeholder="UC00000000" required maxlength="10" title="Formato UC00000000">
+		<br>
+		<br>
+		<label for="nome">Nome: </label>
+		<input type="text" ind="nome" name="nome"
+		required pattern="[a-zA-ZÀ-Öà-ö/s]+">
+		<br>
+		<br>
+		<label for="email">E-mail</label>
+		<input type="email" id="email" name="email" required patern="[a-z0-9._%+-]+@[a]+.[a-z]{2,4}$"
+		placeholder="exemplo@a.ucb.br" title="Formato exemplo@a.ucb.br">
+		<br>
+		<br>
+		<label for="data">Data: </label>
+		<input type="date" id="data" name="data" min="2024-03-04">
+		<br>
+		<br>
+		<select name="curso" id="">
+			<optgroup label="Cursos">
+				<option value="IHC">IHC</option>
+				<option value="front-end">Desenvolvimento front-end</option>
+			</optgroup>
+		</select>
+		<hr>
+<div style="float: left; width: 50%;">
+		<h2>Avaliação do 1° Bimestre</h2>
+		<h4>Questão 1</h4>
+		<p>
+			Identifique a tag HTML correta para criar um link.
+			<ol>
+				<li><input type="radio" name="1">&ltParagrafo&gt</li>
+				<li><input type="radio" name="1">&ltp&gt</li>
+				<li><input type="radio" name="1">&lttext&gt</li>
+				<li><input type="radio" name="1">&ltParagraph&gt</li>
+			</ol>
+		</p>
+		<br>
+		<h4>Questão 2</h4>
+		<p>
+			Qual é a tag HTML usada para criar uma lista ordenada?
+			<ol>
+				<li><input type="radio" name="2">&ltol&gt</li>
+				<li><input type="radio" name="2">&ltul&gt</li>
+				<li><input type="radio" name="2">&ltli&gt</li>
+				<li><input type="radio" name="2">&ltolisted&gt</li>
+			</ol>
+		</p>
+		<br>
+		<h4>Questão 3</h4>
+		<p>
+			Qual a tag HTML é usada para definir o título de uma página?
+			<ol>
+				<li><input type="radio" name="3">&lthead&gt</li>
+				<li><input type="radio" name="3">&lttitle&gt</li>
+				<li><input type="radio" name="3">&lth1&gt</li>
+				<li><input type="radio" name="3">&ltheader&gt</li>
+			</ol>
+		</p>
+		<br>
+		<h4>Questão 4</h4>
+		<p>
+			Qual a tag HTML é usada para criar uma imagem?
+			<ol>
+				<li><input type="radio" name="4">&ltimage&gt</li>
+				<li><input type="radio" name="4">&ltpicture&gt</li>
+				<li><input type="radio" name="4">&ltimg&gt</li>
+				<li><input type="radio" name="4">&ltimgsrc&gt</li>
+			</ol>
+		</p>
+		<br>
+		<h4>Questão 5</h4>
+		<p>
+			Qual é o atributo HTML é usado para para definir o estilo de um elemento?
+			<ol>
+				<li><input type="radio" name="5">class</li>
+				<li><input type="radio" name="5">id</li>
+				<li><input type="radio" name="5">format</li>
+				<li><input type="radio" name="5">style</li>
+			</ol>
+		</p>
+		<br>
+</div>
+<div style="float: right; width: 50%;">
+		<h4>Questão 6</h4>
+		<p>
+			Qual é a tag HTML usada para criar uma tabela?
+			<ol>
+				<li><input type="radio" name="6">&lttable&gt</li>
+				<li><input type="radio" name="6">&lttab&gt</li>
+				<li><input type="radio" name="6">&ltgrid&gt</li>
+				<li><input type="radio" name="6">&ltdata&gt</li>
+			</ol>
+		</p>
+		<br>
+		<h4>Questão 7</h4>
+		<p>
+			O que HTML significa?
+			<ol>
+				<li><input type="radio" name="7">Hyperlinks and text markup language</li>
+				<li><input type="radio" name="7">Hyper text markup language</li>
+				<li><input type="radio" name="7">home tool markup language</li>
+				<li><input type="radio" name="7">Hyperlinks and text management language</li>
+			</ol>
+		</p>
+		<br>
+		<h4>Questão 8</h4>
+		<p>
+			Qual é a tag HTML usada para criar uma lista não ordenada?
+			<ol>
+				<li><input type="radio" name="8">&ltol&gt</li>
+				<li><input type="radio" name="8">&ltul&gt</li>
+				<li><input type="radio" name="8">&ltli&gt</li>
+				<li><input type="radio" name="8">&ltunordered&gt</li>
+			</ol>
+		</p>
+		<br>
+		<h4>Questão 9</h4>
+		<p>
+			Insira abaixo um código HTML que crie um formulário simples:
+			<br>
+			<textarea name="9" id="9" cols="50" rows="10"></textarea>
+		</p>
+		<br>
+		<h4>Questão 10</h4>
+		<p>
+			Identifique a tag HTML correta para criar um parágrafo de texto.
+			<ol>
+				<li><input type="radio" name="10">&ltparagrafo&gt</li>
+				<li><input type="radio" name="10">&ltp&gt</li>
+				<li><input type="radio" name="10">&lttext&gt</li>
+				<li><input type="radio" name="10">&ltparagraph&gt</li>
+			</ol>
+		</p>
+		<br>
+	</div>
+		<input type="submit" value="Enviar">
+		
+	</form>
+</body>
+</html>

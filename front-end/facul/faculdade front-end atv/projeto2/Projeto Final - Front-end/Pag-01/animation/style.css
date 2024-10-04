@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+
+
+img {
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+    margin-top: 20%;
+    
+    }
+}

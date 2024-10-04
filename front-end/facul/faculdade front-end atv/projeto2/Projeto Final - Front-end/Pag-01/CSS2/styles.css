@@ -1,0 +1,178 @@
+body{
+  background-color: #000000;
+}
+.tela-de-cadastro {
+    background: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 180px 0 82px 0;
+    box-sizing: border-box;
+  }
+.image-1 {
+    margin: 0 0 23px 0.5px;
+    width: 288.5px;
+    height: 330px;
+  }
+.group-2 {
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 474px;
+    box-sizing: border-box;
+  }
+.input-ja-cad-auto-layout {
+    border-radius: 8px;
+    background: #000000;
+    display: flex;
+    padding: 20px 0.7px 20px 0;
+    width: 474px;
+    box-sizing: border-box;
+  }
+#cadrastra {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    color: #0026A7;
+    text-decoration: none;
+  }
+.input-submet-auto-layout {
+    border-radius: 8px;
+    background: #0026A7;
+    display: flex;
+    padding: 20px 0.9px 20px 0;
+    width: 474px;
+    box-sizing: border-box;
+  }
+#entrar {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+  }
+.input-conf-senha-layout {
+    border-radius: 8px;
+    background: #171115;
+    display: flex;
+    padding: 20px 21.9px 20px 10px;
+    box-sizing: border-box;
+  }
+.input-senha-layout {
+    border-radius: 8px;
+    background: #171115;
+    margin-right: 20px;
+    padding: 20px 10px;
+    width: 227px;
+    box-sizing: border-box;
+  }
+.input-ralayout {
+    border-radius: 8px;
+    background: #171115;
+    margin-right: 60px;
+    padding: 20px 10px;
+    width: 227px;
+    box-sizing: border-box;
+  }
+.input-email-layout {
+    border-radius: 8px;
+    background: #171115;
+    padding: 20px 10px;
+    width: 474px;
+    box-sizing: border-box;
+  }
+.input-data-layout {
+    border-radius: 8px;
+    background: #171115;
+    margin-right: 20px;
+    padding: 20px 10px;
+    width: 227px;
+    box-sizing: border-box;
+  }
+.input-nome-layout {
+    border-radius: 8px;
+    background: #171115;
+    margin-right: 60px;
+    padding: 20px 10px;
+    width: 474px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+  }
+.ucb {
+    margin: 0 0 53px 1px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 40px;
+    letter-spacing: 4px;
+    color: #FFFFFF;
+  }
+.container {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+.container-1 {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+#digite-seu-nome {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 227px;
+  }
+#digite-seu-nome-1 {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+  }
+#digite-seu-nome-2 {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+  }
+#digite-seu-nome-3 {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+  }
+#digite-adata {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+  }
+#digite-seu-nome-4 {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+  }
+
+a {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}

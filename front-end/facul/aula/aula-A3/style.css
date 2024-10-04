@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+* {
+    color: white;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-image : url("img/teste1.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+option {
+    color: black;
+}
+
+optgroup {
+    color: black;
+}
+
+select {
+    color: black;
+}
+
+.inputbox input {
+    background: transparent;
+    outline: none;
+    border: none;
+    margin: 5px;
+}
+
+.inputbox input {
+    max-width: 310px;
+    border-bottom: 2px solid #fff;
+}
+
+.bnt input {
+    color: black;
+}
+
+
+

@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'poppins', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} 
+
+picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputbox input {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
